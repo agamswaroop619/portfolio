@@ -23,14 +23,20 @@ nav{
     padding-bottom: 5px; 
 }
 .navbtn{
-    max-height: 4.5vh;
+    height: 4.5vh;
     padding-left: 25px;
     padding-right: 25px;
     font-size: 3vh;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: black;
     border: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 270ms;
 }
+.navbtn:hover{
+    background-color: rgb(34, 34, 34); 
+}
+
 
 
 .section{
