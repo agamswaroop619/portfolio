@@ -8,3 +8,8 @@
     document.getElementById("nbtn7").style.color= "white";
     document.getElementById("nbtn8").style.color= "white";
     document.getElementById("nbtn9").style.color= "white";
+    document.getElementById("edu").classList.add('sec1');
+    document.getElementById("projects").classList.add('sec1');
+    document.getElementById("contact").classList.add('sec1');
+    document.getElementById("extra").classList.add('sec1');
+    
