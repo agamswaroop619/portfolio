@@ -1,5 +1,5 @@
 
-    document.getElementById("nbtn1").style.color= "white";
+    document.getElementById("nbtn1").style.color= "royalblue";
     document.getElementById("nbtn2").style.color= "white";
     document.getElementById("nbtn3").style.color= "white";
     document.getElementById("nbtn4").style.color= "white";

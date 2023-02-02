@@ -27,9 +27,9 @@ nav{
     padding-bottom: 5px; 
 }
 .navbtn{
-    height: 4.5vh;
-    padding-left: 25px;
-    padding-right: 25px;
+    height: 4vh;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 3vh;
     border-radius: 25px;
     background-color: black;
@@ -39,6 +39,9 @@ nav{
 }
 .navbtn:hover{
     background-color: rgb(34, 34, 34); 
+}
+.navmenu-mobile{
+    display:none;
 }
 .sec1{
     color: white;
@@ -53,4 +56,14 @@ nav{
 .section{
     padding-top: 5vh;
     height: 95vh;
+}
+
+@media screen and (max-width: 1080px){
+    .navmenu{
+        display: none;
+    }
+    .navmenu-mobile{
+        display: flex;
+
+    }
 }
