@@ -146,6 +146,12 @@ color: white;
     color: white;
  }
  100%{
+<<<<<<< HEAD
     color: rgb(254, 105, 130);
+=======
+
+    color: rgb(254, 105, 130);
+    
+>>>>>>> b6b45fe7ae5b3441dab633bed8f2f9a28b6bff20
      }
   }
