@@ -1,4 +1,8 @@
 
+$(window).on('load',function(){
+    document.getElementById("loadingjs").style.display="none";
+    document.getElementById("loadedjs").style.display="block";
+});
     document.getElementById("nbtn1").style.color= "royalblue";
     document.getElementById("nbtn2").style.color= "white";
     document.getElementById("nbtn3").style.color= "white";
@@ -12,4 +16,5 @@
     document.getElementById("projects").classList.add('sec1');
     document.getElementById("contact").classList.add('sec1');
     document.getElementById("extra").classList.add('sec1');
+
     
