@@ -1,12 +1,7 @@
 
 $(window).on('load',function(){
-<<<<<<< HEAD
     document.getElementById("loadingjs").style.display="none";
     document.getElementById("loadedjs").style.display="block";
-=======
-    $('.loading').fadeOut(1600);    
-    $('.loaded-content').fadeIn(500);
->>>>>>> b6b45fe7ae5b3441dab633bed8f2f9a28b6bff20
 });
     document.getElementById("nbtn1").style.color= "royalblue";
     document.getElementById("nbtn2").style.color= "white";
