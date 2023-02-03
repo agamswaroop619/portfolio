@@ -95,3 +95,59 @@ scale: 1.2;
         display: block;
     }
 }
+.loaded-content{
+    display: none;
+}
+.loading{
+    height: 100vh;
+    width: 100%;
+    font-size: 40vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    
+
+}
+.loada{
+    animation-name: ani;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.loadb{
+    animation-name: ani;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 200ms;
+}
+.loadc{
+    animation-name: ani;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    
+    animation-delay: 400ms;
+}
+@keyframes ani {
+ 0%{
+
+color: rgb(254, 105, 130);
+
+ }
+ 33%
+ {
+
+color: white;
+
+ }
+ 66%{
+    color: white;
+ }
+ 100%{
+
+    color: rgb(254, 105, 130);
+    
+     }
+  }
