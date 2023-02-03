@@ -25,6 +25,7 @@ nav{
     background-color: black;
     padding-top: 3px;
     padding-bottom: 5px; 
+    overflow: hidden;
 }
 .navbtn{
     height: 4vh;
@@ -58,12 +59,35 @@ nav{
     height: 95vh;
 }
 
-@media screen and (max-width: 1080px){
+.menu-lines{
+    min-width: 20px;
+    min-height: 20px;
+    width: 8vh;
+    height: 8vh;
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 1vh;
+    right: 1vh;
+    filter: invert(1);
+    scale: 1;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.menu-lines:hover{
+scale: 1.2;
+}
+.menu-lines:active{
+    scale: 1.25;
+    }
+
+
+@media screen and (max-width: 1300px){
     .navmenu{
         display: none;
     }
     .navmenu-mobile{
-        display: flex;
-
+        display: block;
     }
 }
