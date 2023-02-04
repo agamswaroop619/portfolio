@@ -12,19 +12,21 @@ a{
     text-decoration: none;
 }
 .head{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 position: fixed;
 top: 0;
-left:1px;
+left:2vh;
 padding-right: 20vh;
 z-index: 2;
 }
 .logo{
-    display: inline-flex;
     margin: 0px;
    height: 4vh;
    width: 4vh;
-   justify-content: center;
-align-items: center;
+   border-radius: 100%;
+    margin-right: 1vh;
 }
 .h-icon{
     display: inline-flex;
@@ -98,14 +100,14 @@ nav{
 .menu-lines{
     min-width: 20px;
     min-height: 20px;
-    width: 8vh;
-    height: 8vh;
+    width: 4vh;
+    height: 4vh;
     max-width: 45px;
     max-height: 45px;
     border-radius: 100%;
     position: fixed;
-    bottom: 1vh;
-    right: 1vh;
+    top: 0;
+    right: 2vh;;
     filter: invert(1);
     scale: 1;
     transition-duration: 200ms;
@@ -119,7 +121,7 @@ scale: 1.2;
     }
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1400px){
     .navmenu{
         display: none;
     }
