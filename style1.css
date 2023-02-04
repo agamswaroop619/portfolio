@@ -11,7 +11,32 @@ body{
 a{
     text-decoration: none;
 }
-
+.head{
+position: fixed;
+top: 0;
+left:1px;
+padding-right: 20vh;
+z-index: 2;
+}
+.logo{
+    display: inline-flex;
+    margin: 0px;
+   height: 4vh;
+   width: 4vh;
+   justify-content: center;
+align-items: center;
+}
+.h-icon{
+    display: inline-flex;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3.1vh;
+text-decoration: overline underline;
+padding: 0px;
+margin: 0px;;
+justify-content: center;
+align-items: center;
+}
 nav{
     position: fixed;
     top: 0px;
@@ -32,8 +57,8 @@ nav{
 }
 .navbtn{
     height: 4vh;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2.2vh;
+    padding-right: 2.2vh;
     font-size: 3vh;
     border-radius: 25px;
     background-color: black;
@@ -43,6 +68,13 @@ nav{
 }
 .navbtn:hover{
     background-color: rgb(34, 34, 34); 
+}
+.navmenu{
+    display: inline-flex;
+    overflow-wrap: break-word;
+    position: fixed;
+    top: 0;
+    right: 2vh;
 }
 .navmenu-mobile{
     display:none;
