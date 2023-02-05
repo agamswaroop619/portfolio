@@ -39,6 +39,11 @@ margin: 0px;;
 justify-content: center;
 align-items: center;
 }
+.bgv{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
 nav{
     position: fixed;
     top: 0px;

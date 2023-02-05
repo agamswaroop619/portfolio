@@ -12,9 +12,16 @@ $(window).on('load',function(){
     document.getElementById("nbtn7").style.color= "white";
     document.getElementById("nbtn8").style.color= "white";
     document.getElementById("nbtn9").style.color= "white";
-    document.getElementById("edu").classList.add('sec1');
-    document.getElementById("projects").classList.add('sec1');
-    document.getElementById("contact").classList.add('sec1');
-    document.getElementById("extra").classList.add('sec1');
+    document.getElementById("edu").classList.add('sec2');
+    document.getElementById("projects").classList.add('sec2');
+    document.getElementById("contact").classList.add('sec2');
+    document.getElementById("extra").classList.add('sec2');
+    document.getElementById("home").classList.add('sec1');
+    document.getElementById("exp").classList.add('sec1');
+    document.getElementById("hobbies").classList.add('sec1');
+    document.getElementById("blogs").classList.add('sec1');
+    document.getElementById("achievement").classList.add('sec1');
+    
+
 
     
