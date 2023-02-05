@@ -11,6 +11,7 @@ body{
 a{
     text-decoration: none;
 }
+/*Nav-bar elements*/
 .head{
     display: inline-flex;
     justify-content: center;
@@ -42,10 +43,10 @@ align-items: center;
 .bgv{
     position: relative;
     min-width: 100%;
-    
+    cursor: none;
 }
 .homebg > .bgvtext{
-
+    cursor: none;
     font-size: 33vh;
     min-width: 100%;
     z-index: 2;
@@ -64,7 +65,6 @@ nav{
     top: 0px;
     left: 0px;
     right: 0px;
-    bottom: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,9 +76,10 @@ nav{
     padding-bottom: 5px; 
     overflow: hidden;
     z-index: 2;
+    height: 3.4vh;
 }
 .navbtn{
-    height: 4vh;
+    height: 3.4vh;
     padding-left: 2.2vh;
     padding-right: 2.2vh;
     font-size: 3vh;
@@ -100,21 +101,6 @@ nav{
 }
 .navmenu-mobile{
     display:none;
-}
-.sec1{
-    color: white;
-    background-color: black;
-    margin: 0px;
-}
-.sec2{
-    background-color: whitesmoke;
-    color: black;
-}
-
-.section{
-    padding-top: 5vh;
-    height: 95vh;
-    scroll-snap-align: start;
 }
 
 .menu-lines{
@@ -139,19 +125,39 @@ scale: 1.2;
 .menu-lines:active{
     scale: 1.25;
     }
+/*For Each section*/
+.sec1{
+    color: white;
+    background-color: black;
+    margin: 0px;
+}
+.sec2{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section{
+    padding-top: 5vh;
+    height: 95vh;
+    scroll-snap-align: start;
+}
 
 
+/*For mobile optimization*/
 @media screen and (max-width: 1400px){
     .navmenu{
         display: none;
     }
     .navmenu-mobile{
         display: block;
+        z-index: 2;
     }
 }
+/*While loading the content it will not display half loaded content*/
 .loaded-content{
     display: none;
 }
+/*Loading effects and animation*/
 .loading{
     height: 100vh;
     width: 100%;

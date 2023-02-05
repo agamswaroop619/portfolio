@@ -7,26 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <title>Portfolio-XYZ</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- Loading Screen -->
     <div class="loading" id="loadingjs" >
         <p class="loada">&#x2022;</p>
         <p class="loadb">&#x2022;</p>
         <p class="loadc">&#x2022;</p>
     </div>
+    <!-- Loaded Content -->
     <div class="loaded-content" id="loadedjs">
+        <!-- Navigation bar -->
     <nav>
+        <!-- Logo and site name that redirects to Home page-->
         <a href="#home">
         <div class="head">
-            
             <img src="Logo.png" class="logo">
             <p class="h-icon">
                 Portfolio
             </p>
         </div>
         </a>
+        <!-- Default navmenu for laptops and desktops-->
         <div class="navmenu">
         <button class="navbtn" ><a id="nbtn1" href="#home">Home</a></button>
         <button class="navbtn" ><a id="nbtn2" href="#edu">Education</a></button>
@@ -39,20 +43,26 @@
         <button class="navbtn" ><a id="nbtn9" href="#achievement"> Achievements </a></button>
         </div>
 
-
+        <!-- Default navmenu for mobile (working on it)-->
         <div class="navmenu-mobile">
         <img src="menu.jpg" class="menu-lines">
         </div>
     </nav>
+
+    <!-- Main content of the site -->
     <main>
+        <!-- Home slide -->
     <div id="home" class="section">
+        <!-- video background wuth text effect here-->
         <div class="homebg">
+
             <video autoplay muted loop class="bgv">
                 <source src="videobg.mp4" type="video/mp4">
               </video>
             <p class="bgvtext">WELCOME</p> 
+            </div>
         <div>
-            
+            <!--written part of home-->
             <h1> It's about understanding the universe </h1>
     
             <img src="myphoto.jpg" alt="" data-aos="fade-up" class="rmq-32d32b65 rmq-50b50cc9 aos-init aos-animate"
@@ -62,7 +72,6 @@
             </p>
 
         </div>
-    </div>
     </div>
 
     <div id="edu" class="section">
