@@ -21,6 +21,7 @@ $(window).on('load',function(){
     document.getElementById("hobbies").classList.add('sec1');
     document.getElementById("blogs").classList.add('sec1');
     document.getElementById("achievement").classList.add('sec1');
+    document.querySelector('video').playbackRate = 2.0;
     
 
 

@@ -42,7 +42,22 @@ align-items: center;
 .bgv{
     position: relative;
     min-width: 100%;
-    min-height: 100%;
+    
+}
+.homebg > .bgvtext{
+
+    font-size: 33vh;
+    min-width: 100%;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 5vh;
+    mix-blend-mode: multiply;  
+    font-weight: 800;
 }
 nav{
     position: fixed;
