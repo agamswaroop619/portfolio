@@ -10,17 +10,20 @@ body{
 }
 a{
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*Nav-bar elements*/
 .head{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-position: fixed;
-top: 0;
-left:2vh;
-padding-right: 20vh;
-z-index: 2;
+    position: fixed;
+    top: 0;
+    left:2vh;
+    padding-right: 20vh;
+    z-index: 2;
 }
 .logo{
     margin: 0px;
@@ -31,14 +34,14 @@ z-index: 2;
 }
 .h-icon{
     display: inline-flex;
-color: white;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 3.1vh;
-text-decoration: overline underline;
-padding: 0px;
-margin: 0px;;
-justify-content: center;
-align-items: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.2vh;
+    text-decoration: overline underline;
+    padding: 0px;
+    margin: 0px;;
+    justify-content: center;
+    align-items: center;
 }
 .bgv{
     position: relative;
@@ -49,7 +52,7 @@ align-items: center;
     cursor: none;
     font-size: 33vh;
     min-width: 100%;
-    z-index: 2;
+    z-index: 1.5;
     margin: 0;
     padding: 0;
     display: grid;
@@ -72,18 +75,22 @@ nav{
     font-size: larger;
     text-transform: uppercase;
     background-color: black;
-    padding-top: 3px;
-    padding-bottom: 5px; 
     overflow: hidden;
     z-index: 2;
-    height: 3.4vh;
+    height: 4.8vh;
 }
 .navbtn{
-    height: 3.4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    border-radius: 25px;
+    height: 3.5vh;
     padding-left: 2.2vh;
     padding-right: 2.2vh;
-    font-size: 3vh;
-    border-radius: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 3.2vh;
     background-color: black;
     border: none;
     transition-timing-function: ease-in-out;
@@ -93,11 +100,16 @@ nav{
     background-color: rgb(34, 34, 34); 
 }
 .navmenu{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow-wrap: break-word;
     position: fixed;
     top: 0;
     right: 2vh;
+    text-align: center;
+    height: 4.8vh;
+    gap: 0.2vh;
 }
 .navmenu-mobile{
     display:none;
@@ -142,9 +154,8 @@ scale: 1.2;
     scroll-snap-align: start;
 }
 
-
 /*For mobile optimization*/
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1450px){
     .navmenu{
         display: none;
     }
@@ -165,7 +176,7 @@ scale: 1.2;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background-color: royalblue;
+    background-color: black;
     
 
 }
@@ -174,6 +185,8 @@ scale: 1.2;
     animation-duration: 600ms;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
+    position: relative;
+
 }
 .loadb{
     animation-name: ani;
@@ -181,33 +194,37 @@ scale: 1.2;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
     animation-delay: 200ms;
+    position: relative;
 }
 .loadc{
     animation-name: ani;
     animation-duration: 600ms;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
+    position: relative;
     
     animation-delay: 400ms;
 }
 @keyframes ani {
  0%{
 
-color: rgb(254, 105, 130);
+color: royalblue;
+    top: 0vh;
 
  }
  33%
  {
 
 color: white;
-
+top: -1vh;
  }
  66%{
     color: white;
+    top: 0vh;
  }
  100%{
-
-    color: rgb(254, 105, 130);
+    top: 0vh;
+    color: royalblue;
     
      }
   }
