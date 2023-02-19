@@ -44,14 +44,18 @@ a{
     align-items: center;
 }
 .bgv{
+    
     position: relative;
-    min-width: 100%;
+    min-width: 98vw;
     cursor: none;
+    
 }
-.homebg > .bgvtext{
+.homebg{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.bgvtext{
     cursor: none;
-    font-size: 33vh;
-    min-width: 100%;
+    font-size: 35vh;
     z-index: 1.5;
     margin: 0;
     padding: 0;
@@ -61,7 +65,9 @@ a{
     background-color: rgba(0, 0, 0, 0.8);
     top: 5vh;
     mix-blend-mode: multiply;  
-    font-weight: 800;
+    font-weight: 800;    
+    width: 98vw;
+
 }
 nav{
     position: fixed;
@@ -149,13 +155,17 @@ scale: 1.2;
 }
 
 .section{
+    display: grid;
+    place-items: center;
+    align-content: center;
     padding-top: 5vh;
     height: 95vh;
     scroll-snap-align: start;
+    position: relative;
 }
 
 /*For mobile optimization*/
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 1450px) , (orientation: portrait){
     .navmenu{
         display: none;
     }
