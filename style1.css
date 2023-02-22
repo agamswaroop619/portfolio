@@ -163,7 +163,23 @@ scale: 1.2;
     scroll-snap-align: start;
     position: relative;
 }
-
+.tri1{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    animation-name: trientry1;
+    animation-duration: 300ms;
+    animation-iteration-count: none;
+}
+.tri2{
+    position: absolute;
+    bottom: 2rem;
+    right: 2.5rem;
+    animation-name: trientry;
+    animation-duration: 300ms;
+    animation-delay: 250ms;
+    animation-iteration-count: none;
+}
 /*For mobile optimization*/
 @media screen and (max-width: 1450px) , (orientation: portrait){
     .navmenu{
@@ -238,3 +254,22 @@ top: -1vh;
     
      }
   }
+@keyframes trientry{
+    0%{
+        bottom: -20rem;
+    }
+    100%{
+        bottom: 2rem;
+        right: 2.5rem;
+    }
+}
+@keyframes trientry1{
+    0%{
+        bottom: -20rem;
+    }
+    100%{
+
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

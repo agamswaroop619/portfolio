@@ -4,7 +4,7 @@ $(window).on('load',function(){
     document.getElementById("loadedjs").style.display="block";
 });
 //controls color of each navmenu element
-    document.getElementById("nbtn1").style.color= "royalblue";
+    document.getElementById("nbtn1").style.color= "#5454c5";
     document.getElementById("nbtn2").style.color= "white";
     document.getElementById("nbtn3").style.color= "white";
     document.getElementById("nbtn4").style.color= "white";
